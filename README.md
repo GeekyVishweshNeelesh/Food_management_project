@@ -81,9 +81,21 @@ This project provides a digital bridge between providers and receivers, ensuring
 # 📸 Screenshots
 🏠 Home Dashboard
 
+![Food Wastage Management Dashboard](screenshots/Food_waste_Management_Dashboard.png)
+
 📊 Query Results Example
 
-📞 Provider Contact List
+1️⃣ Total Listings 🧾
+
+![Total Listing Query Output](screenshots/Q1_picture.png)
+
+2️⃣ Active Listings by City 🏙️
+
+![Active Listing by City Query Output](screenshots/Q2_picture.png)
+
+
+
+
 
 
 # 🎯 Real-World Use Cases
@@ -99,47 +111,42 @@ This project provides a digital bridge between providers and receivers, ensuring
 
 # 🛠️ Installation & Setup
 
-1.Clone repo https://github.com/GeekyVishweshNeelesh/Food_management_project_Data_Science
+### 1. Clone repo 
 
-git clone 
+```bash
+git clone https://github.com/GeekyVishweshNeelesh/Food_management_project_Data_Science
 
 cd food_wastage_management
+```
 
+### 2. Install dependencies
 
-2. Install dependencies
-
+```bash 
 pip install -r requirements.txt
+```
 
-3. Setup MariaDB
+### 3. Setup MariaDB
 
+```bash
 mariadb -u root -p
 
 CREATE DATABASE food_wastage_db;
 
 USE food_wastage_db;
+```
 
-4.Load CSV data into MariaDB
+### 4.Load CSV data into MariaDB
 
+```bash
 python load_data.py
+```
 
-5.Run Streamlit app
+### 5.Run Streamlit app
 
+```bash
 streamlit run app.py
+```
 
-# 📦 Requirements
-streamlit==1.36.0
-
-pandas==2.2.2
-
-numpy==1.26.4
-
-matplotlib==3.9.0
-
-plotly==5.22.0
-
-sqlalchemy==2.0.30
-
-mariadb==1.1.10
 
 
 # 🤝 Contributors
