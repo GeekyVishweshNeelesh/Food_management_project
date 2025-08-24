@@ -1,13 +1,13 @@
-🍲 Local Food Wastage Management System
+# 🍲 Local Food Wastage Management System
 
 -🚀 A data-driven web application built with Streamlit + MariaDB + Python to reduce food wastage by connecting surplus food providers (restaurants/individuals) with receivers (NGOs/individuals).
 -The system supports real-time surplus listing, matching, analytics, and provider–receiver coordination.
 
-📌 Problem Statement
+## 📌 Problem Statement
 -Food wastage is a critical issue 🌍. Restaurants, individuals, and events often dispose of surplus food, while NGOs and needy communities face shortages.
 This project provides a digital bridge between providers and receivers, ensuring surplus food is redistributed efficiently, reducing waste, and supporting sustainability.
 
-⚙️ Tech Stack
+# ⚙️ Tech Stack
 
 -🐍 Python 3.9+
 
@@ -22,7 +22,7 @@ This project provides a digital bridge between providers and receivers, ensuring
 -📝 SQLAlchemy / mariadb-connector-python (DB connection)
 
 
-📂 Dataset Details
+# 📂 Dataset Details
 
 -Uploaded CSVs are used to populate MariaDB tables.
 
@@ -43,7 +43,7 @@ This project provides a digital bridge between providers and receivers, ensuring
 -Claim_ID, Listing_ID, Receiver_ID, Claim_Date, Status
 
 
-📊 Dashboard Features
+# 📊 Dashboard Features
 
 🔎 The Streamlit app provides 15 SQL-driven analytics & insights:
 
@@ -78,7 +78,7 @@ This project provides a digital bridge between providers and receivers, ensuring
 1️⃣5️⃣ Provider contact details (📞 displayed in bullet points with emojis)
 
 
-📸 Screenshots
+# 📸 Screenshots
 🏠 Home Dashboard
 
 📊 Query Results Example
@@ -86,7 +86,7 @@ This project provides a digital bridge between providers and receivers, ensuring
 📞 Provider Contact List
 
 
-🎯 Real-World Use Cases
+# 🎯 Real-World Use Cases
 
 ✅ Restaurants & Hotels can reduce food waste
 
@@ -97,11 +97,11 @@ This project provides a digital bridge between providers and receivers, ensuring
 ✅ Communities benefit from reduced hunger & sustainable practices
 
 
-🛠️ Installation & Setup
+# 🛠️ Installation & Setup
 
-1.Clone repo
+1.Clone repo https://github.com/GeekyVishweshNeelesh/Food_management_project_Data_Science
 
-git clone https://github.com/your-username/food_wastage_management.git
+git clone 
 
 cd food_wastage_management
 
@@ -126,7 +126,7 @@ python load_data.py
 
 streamlit run app.py
 
-📦 Requirements
+# 📦 Requirements
 streamlit==1.36.0
 
 pandas==2.2.2
@@ -142,7 +142,7 @@ sqlalchemy==2.0.30
 mariadb==1.1.10
 
 
-🤝 Contributors
+# 🤝 Contributors
 
 👨‍💻 Vishwesh Neelesh
 
