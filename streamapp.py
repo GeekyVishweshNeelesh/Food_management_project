@@ -5,7 +5,7 @@ import mariadb
 # ---------------- DB CONNECTION ----------------
 def get_connection():
     return mariadb.connect(
-        user="root",  #login using your own pc root id
+        user="vishwesh",  #login using your own pc root id
         password="password", #use your database password which you use on your pc
         host="localhost",
         port=3306,
