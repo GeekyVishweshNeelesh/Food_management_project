@@ -1,0 +1,15 @@
+# Core
+python-dotenv==1.0.1
+pandas==2.2.2
+numpy==1.26.4
+
+# Database (MariaDB / MySQL connector)
+SQLAlchemy==2.0.32
+mariadb==1.1.10
+
+# Streamlit app
+streamlit==1.37.1
+
+# Visualization
+matplotlib==3.9.2
+plotly==5.24.1
