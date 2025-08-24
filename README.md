@@ -48,19 +48,33 @@ This project provides a digital bridge between providers and receivers, ensuring
 🔎 The Streamlit app provides 15 SQL-driven analytics & insights:
 
 1️⃣ Total number of food listings
+
 2️⃣ Active listings by city
+
 3️⃣ Top 5 most frequent food types
+
 4️⃣ Count of listings expiring today
+
 5️⃣ Provider-wise listing count
+
 6️⃣ City-wise distribution of providers
+
 7️⃣ Receiver capacity by city
+
 8️⃣ Match listings with receivers (city + food type)
+
 9️⃣ Total surplus quantity by city
+
 🔟 Meal type distribution
+
 1️⃣1️⃣ List expired food listings
+
 1️⃣2️⃣ Listings per provider type
+
 1️⃣3️⃣ Avg. quantity per food type
+
 1️⃣4️⃣ Providers & Receivers count by city
+
 1️⃣5️⃣ Provider contact details (📞 displayed in bullet points with emojis)
 
 
@@ -75,8 +89,11 @@ This project provides a digital bridge between providers and receivers, ensuring
 🎯 Real-World Use Cases
 
 ✅ Restaurants & Hotels can reduce food waste
+
 ✅ NGOs & Charities can access surplus food quickly
+
 ✅ Local Governments can track wastage trends for policy decisions
+
 ✅ Communities benefit from reduced hunger & sustainable practices
 
 
@@ -85,6 +102,7 @@ This project provides a digital bridge between providers and receivers, ensuring
 1.Clone repo
 
 git clone https://github.com/your-username/food_wastage_management.git
+
 cd food_wastage_management
 
 
@@ -95,7 +113,9 @@ pip install -r requirements.txt
 3. Setup MariaDB
 
 mariadb -u root -p
+
 CREATE DATABASE food_wastage_db;
+
 USE food_wastage_db;
 
 4.Load CSV data into MariaDB
@@ -108,11 +128,17 @@ streamlit run app.py
 
 📦 Requirements
 streamlit==1.36.0
+
 pandas==2.2.2
+
 numpy==1.26.4
+
 matplotlib==3.9.0
+
 plotly==5.22.0
+
 sqlalchemy==2.0.30
+
 mariadb==1.1.10
 
 
