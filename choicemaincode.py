@@ -6,7 +6,7 @@ def get_connection():
     try:
         conn = mariadb.connect(
             user="vishwesh",       # change with your DB username
-            password="Vish1408",  # change with your DB password
+            password="password",  # change with your DB password
             host="localhost",
             port=3306,
             database="food_donation_db"
